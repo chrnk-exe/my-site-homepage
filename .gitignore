@@ -12,6 +12,8 @@ node_modules
 dist
 dist-ssr
 *.local
+/build
+/dist
 
 # чтоб никто не нашёл :)
 src/assets/vk_avatarka.jpg
