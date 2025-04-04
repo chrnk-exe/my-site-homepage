@@ -13,6 +13,9 @@ dist
 dist-ssr
 *.local
 
+# чтоб никто не нашёл :)
+src/assets/vk_avatarka.jpg
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -23,3 +26,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
