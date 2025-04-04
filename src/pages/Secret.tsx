@@ -5,12 +5,9 @@ import {
   Flex,
   Text,
   Link,
-  Icon,
   Grid,
-  Avatar,
   Button,
   Image,
-  Card,
 } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import { SiBookstack, SiSynology } from 'react-icons/si';
@@ -19,7 +16,6 @@ import { DiPostgresql } from 'react-icons/di';
 import { VscVm } from 'react-icons/vsc';
 import flowyLogo from '../assets/flowy_logo.svg';
 
-const MotionCard = motion(Card.Root);
 const MotionBox = motion(Box);
 const MotionButton = motion(Button);
 const MotionFlex = motion(Flex);

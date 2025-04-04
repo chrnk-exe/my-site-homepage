@@ -1,4 +1,4 @@
-import { Heading, Box, Flex, List, Button } from '@chakra-ui/react';
+import { Heading, Box, Flex, List } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import React from 'react';
 import {
@@ -11,7 +11,6 @@ import {
 } from 'react-icons/fa';
 
 const MotionBox = motion(Box);
-const MotionButton = motion(Button);
 const MotionFlex = motion(Flex);
 
 const skills = [
