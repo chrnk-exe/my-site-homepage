@@ -15,6 +15,7 @@ import { FaGoogleDrive, FaJenkins } from 'react-icons/fa';
 import { DiPostgresql } from 'react-icons/di';
 import { VscVm } from 'react-icons/vsc';
 import flowyLogo from '../assets/flowy_logo.svg';
+import nexusLogo from '../assets/nexus.svg';
 
 const MotionBox = motion(Box);
 const MotionButton = motion(Button);
@@ -59,6 +60,13 @@ const leftColumnLinks = [
       </Text>
     ),
     title: 'DSM',
+  },
+  {
+    link: 'https://pgadmin.zxchrnk.pw',
+    icon: nexusLogo,
+    description:
+      'Nexus — это менеджер репозиториев, используемый для хранения и управления артефактами, такими как библиотеки, контейнеры и пакеты.',
+    title: 'Nexus',
   },
 ];
 

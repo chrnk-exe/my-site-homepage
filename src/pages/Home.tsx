@@ -40,7 +40,6 @@ const contacts = [
   {
     text: 'vanya@zxchrnk.pw',
     icon: <CiMail />,
-    decoration: 'line-through',
     link: 'mailto:vanya@zxchrnk.pw',
   },
   {
