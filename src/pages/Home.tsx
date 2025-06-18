@@ -22,11 +22,19 @@ import { CiMail } from 'react-icons/ci';
 import Instruments from './home-subpages/Instruments';
 import TechnicalProfiles from './home-subpages/Profiles';
 import Projects from './home-subpages/Projects';
+import { ReactNode } from 'react';
 
 const MotionBox = motion(Box);
 const MotionFlex = motion(Flex);
 
-const contacts = [
+interface ContactItem {
+  text: string;
+  icon: ReactNode;
+  decoration?: string;
+  link?: string;
+}
+
+const contacts: ContactItem[] = [
   {
     text: 'p0lar1zee1337@gmail.com',
     icon: <CiMail />,
