@@ -9,9 +9,9 @@ const MotionBox = motion(Box);
 const MotionFlex = motion(Flex);
 const MotionButton = motion(Button);
 
-const navItems = [
-  { label: 'Секретная страница :)', icon: FaLock, path: '/secret' },
-];
+// const navItems = [
+//   // { label: 'Секретная страница :)', icon: FaLock, path: '/secret' },
+// ];
 
 export default function NavBar() {
   return (
@@ -34,11 +34,12 @@ export default function NavBar() {
             </MotionButton>
           </MotionFlex>
           <Stack direction={'row'} gap={6}>
-            {navItems.map((item, index) => (
+            {/* Давай не будем всем её показывать, кто захочет - сам найдёт :) */}
+            {/* {navItems.map((item, index) => (
               <MotionButton key={index} size="2xl" asChild>
                 <Link to={item.path}>{item.label}</Link>
               </MotionButton>
-            ))}
+            ))} */}
           </Stack>
         </Flex>
       </MotionBox>

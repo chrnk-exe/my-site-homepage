@@ -163,11 +163,20 @@ export default function Home() {
                   Сертификаты:
                 </Heading>
                 <List.Root ml={5}>
+                  К сожалению эти три сертификата уже давно не котируются, так
+                  как платформа закрылась, но всё же в память о плаформе
+                  Hacktory и моих достижениях на ней:
                   <List.Item>HWSP</List.Item>
                   <List.Item>HJSSP</List.Item>
-                  <List.Item>HJSP</List.Item>
+                  <List.Item>HJSP</List.Item>А также:
                   <List.Item>
-                    <s>OSWE</s> (В процессе)
+                    <Link href="https://credentials.offsec.com/fd97fd83-c8fe-4d35-9cc9-339c81c7e1be">
+                      OSWE
+                    </Link>{' '}
+                    (Offensive Security Web Expert) - один из самых престижных и
+                    сложных сертификатов в области веб-пентестинга,
+                    подтверждающий высокий уровень навыков и знаний в этой
+                    области.
                   </List.Item>
                 </List.Root>
               </Box>
@@ -181,7 +190,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}>
             <Heading as="h2" size="4xl" mb={6}>
-              Проекты (не под NDA)
+              Личные проекты {':)'}
             </Heading>
             <Projects />
           </MotionBox>
